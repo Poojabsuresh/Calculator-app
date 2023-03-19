@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <p>CASIO</p>
+            <input type="text" id="screen">
+            <br>
+            <input type="button" class="btn" value="7" onclick="btnClick(value)">
+            <input type="button" class="btn" value="8" onclick="btnClick(value)">
+            <input type="button" class="btn" value="9" onclick="btnClick(value)">
+            <input type="button" class="btn operator" value="/" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="btn" value="4" onclick="btnClick(value)">
+            <input type="button" class="btn" value="5" onclick="btnClick(value)">
+            <input type="button" class="btn" value="6" onclick="btnClick(value)">
+            <input type="button" class="btn operator" value="*" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="btn" value="1" onclick="btnClick(value)">
+            <input type="button" class="btn" value="2" onclick="btnClick(value)">
+            <input type="button" class="btn" value="3" onclick="btnClick(value)">
+            <input type="button" class="btn operator" value="+" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="btn clear" value="CLR" onclick="clrScr()">
+            <input type="button" class="btn" value="0" onclick="btnClick(value)">
+            <input type="button" class="btn result" value="=" onclick="findResult()">
+            <input type="button" class="btn operator" value="-" onclick="btnClick(value)">
+
+           
+
+        </form>
+    </div>
+    <script src="./calc.js"> </script>
+
+
+    
+</body>
+</html>
